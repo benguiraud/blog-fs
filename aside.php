@@ -2,6 +2,8 @@
 $titre=
     
     
+///////////////*liste des 5 derniers articles*/////////////////
+    
     foreach ("$titre")
     echo 
 

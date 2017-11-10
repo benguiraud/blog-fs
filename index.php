@@ -20,6 +20,8 @@
         
         
         
+        <?php include('logs.php') ?>
+        
         
         
         
