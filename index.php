@@ -18,10 +18,25 @@
     </head>
     <body>
         
+        
+        
+        
+        
+        
+        
     <!------------------BANNER (bruce)----------------------->
-        <header> <?php include('banner.php') ?> </header>
-    <!-----------------Main (Article Random------------------>
-        <main> <?php something ?>
+        
+        <header> <?php include('banner.php') ?></header>
+        
+    <!-----------------Main (Article Random)----------------->
+        
+        <main> <?php include('main.php')?></main>     
+        
+    <!------------------footer copyright---------------------> 
+        
+        <footer> <?php include('footer.php') ?></footer>   
+        
+    <!-------------------------------------------------------> 
         
         
         
@@ -29,57 +44,6 @@
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        </main>    
-    <!------------------aside liste des articles------------->     <aside> <?php something ?>
-    
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        </aside>    
-    <!------------------footer copyright--------------------->     <footer> <?php include('footer.php') ?>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        </footer>    
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
